@@ -1,6 +1,10 @@
-## Erroneous_data_detection
+## Detection of Erroneous Weather Data
 
-Python3 - Version 3.7
+This project aims to predict erroneous measurements int the data received from North Carolina State Climate office.
+
+## EcoNet Dataset 
+
+The NC Climate Office receives measurements from various(23) sensors across 45 stations each day. This amounts to around 544 million samples of data each year. First, these data points get automatically flagged by quality control sensors. Then these flagged samples have to be manually reviewed by experts at the Climate Office to check if any of samples are erroneous(which would mean the sensors need to be looked at). Since the number of samples is huge, this would take a considerable amount of time and effort. 
 
 ## Libraries Used for the project are:
 1) pandas 
