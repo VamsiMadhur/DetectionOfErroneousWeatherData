@@ -1,10 +1,14 @@
 ## Detection of Erroneous Weather Data
 
-This project aims to predict erroneous measurements int the data received from North Carolina State Climate office.
+This project aims to predict erroneous measurements in the data received from North Carolina State Climate office.
 
 ## EcoNet Dataset 
 
 The NC Climate Office receives measurements from various(23) sensors across 45 stations each day. This amounts to around 544 million samples of data each year. First, these data points get automatically flagged by quality control sensors. Then these flagged samples have to be manually reviewed by experts at the Climate Office to check if any of samples are erroneous(which would mean the sensors need to be looked at). Since the number of samples is huge, this would take a considerable amount of time and effort. 
+
+## Problem Statement
+
+This is a supervised, binary classification problem, where we need to predict whether different measures from weather stations are erroneous(instead of manual flagging).
 
 ## Libraries Used for the project are:
 1) pandas 
@@ -16,6 +20,7 @@ The NC Climate Office receives measurements from various(23) sensors across 45 s
 7) scipy
 8) tensorflow 
 9) os
+
 
 ## Project Flow:
 1) All the preprocessing steps like one hot encoding, Normalization and feature engineering are performed in "PreProcessing.ipynb". This will generate two csv files, Train_updated.csv and Test_updated.csv
