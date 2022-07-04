@@ -10,6 +10,8 @@ The NC Climate Office receives measurements from various(23) sensors across 45 s
 
 This is a supervised, binary classification problem, where we need to predict whether different measures from weather stations are erroneous(instead of manual flagging).
 
+**The project report can he found [here](/ProjectReport)**
+
 ## Libraries Used for the Project
 1) pandas 
 2) tqdm 
